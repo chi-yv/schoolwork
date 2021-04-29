@@ -1,7 +1,7 @@
 import random
 li=[]
 n=10
-for i in range(1,n+1):  # 随机生成k只股票
+for i in range(1,n+1):  # 随机生成n只股票
     # 股票名、编号、当前价格、三个月前价格
     li.append([1000+i,i,int(random.uniform(100,200)),int(random.uniform(120,200))])
 print(li)
