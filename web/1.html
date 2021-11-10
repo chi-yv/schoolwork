@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>背景</title>
+	<title>盒子模型1</title>
 	<style>
-		*{
-			background-color: rgba(120,200,180,0.6);
-		}
-		p{
-			/*background-color: pink;*/
-			/*background-color: rgb(120,200,180);*/
-			
-			background-image: url("bg1.gif");
-			/*background-repeat: repeat-x;*/
+	*{
+		padding: 0;
+		margin: 0;
+	}
+		#box{
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			padding: 20px;
+			margin: 10px;
+			/*overflow: hidden;*/
+			/*overflow: scroll;*/
+			overflow: auto;
 		}
 		.one{
-			height: 30px;
-			width: 600px;
-			background: pink url("bg1.gif") no-repeat;
+			border: 2px dashed green;
 		}
 	</style>
 </head>
 <body>
-	<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut aliquid, ullam accusantium blanditiis eveniet hic cupiditate, minima, aspernatur sed iure dolorem non placeat eum aliquam officiis temporibus quia a magni.</p> -->
-	<div>
-		<p>河北金融学院，我爱你</p>
+	<div id="box">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi optio dignissimos inventore, quae temporibus aperiam, ex illo iusto nihil. Vitae eos, atque temporibus quia voluptates, incidunt consectetur ex quibusdam architecto.
 	</div>
+	发动机领导过来的工夫就两个集合的攻击力
 	<div class="one">
-		
+		汽车 购车 高清图
 	</div>
 </body>
 </html>
